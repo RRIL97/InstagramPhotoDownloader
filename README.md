@@ -1,6 +1,6 @@
 Instagram Photo Downloader (Java)
 
-This tool allows you to download all the photos of any user on Instagram that you choose. (Those users who have open profiles for visitors)
+This tool allows you to download all the photos of any user on Instagram that you choose. (Those users must have open profiles for visitors)
 
 
 It has 2 main functions
