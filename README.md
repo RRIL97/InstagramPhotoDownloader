@@ -12,9 +12,9 @@ It has 2 main functions
 
 2) Picture Downloader - can be used after the link scraping stage (Utilizes 50 threads)
 
-The entire fetched link list will be saved on the same work directory of the program (Format is WorkDirectory//inputUsername.txt).
+The entire fetched link list will be saved on the same work directory of the program (Format is WorkDirectory//inputUsername.txt)
 
-
+Photos are saved on WorkDirectory//photoNum.jpg
 
 
 ---
