@@ -1,6 +1,6 @@
 Instagram Photo Downloader (Java) 
 -----------------------------------
-** Not Authentication Needed **!
+*No Authentication Needed*
 
 This tool allows you to download all the photos of any user on Instagram (That user must have open profile for visitors).
 
