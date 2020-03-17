@@ -9,8 +9,7 @@ It has 2 main functions
 
 1) Picture link scraper - scrape all picture links. This can be used to download the photos at a later stage. (In any download manager)
 
-2) Downloader - can be used after the link scraping stage (Utilizes 50 threads)
-This feature can be skipped.
+2) Picture Downloader - can be used after the link scraping stage (Utilizes 50 threads)
 
 The entire fetched link list will be saved on the same work directory of the program. (Format is **inputUsername.txt)
 
