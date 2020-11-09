@@ -81,7 +81,7 @@ public class User {
                  picDownThread.start();
                  downloaderThreads.add(picDownThread);
                  
-                 //Defaulted to 10 threads to prevent ip ban by instagram.
+                 //Defaulted to 50 threads to prevent ip ban by instagram.
                  if ( i > 0 && i % 50 == 0){  
                      for(int j = i ; j > i-50 ; j --){
                          downloaderThreads.get(j).join();
