@@ -80,13 +80,7 @@ public class User {
                  picDownThread = new Thread(picDown);
                  picDownThread.start();
                  downloaderThreads.add(picDownThread);
-                 
-                 //Defaulted to 50 threads to prevent ip ban by instagram.
-                 if ( i > 0 && i % 50 == 0){  
-                     for(int j = i ; j > i-50 ; j --){
-                         downloaderThreads.get(j).join();
-                     }
-                 }  
+                  
                  }catch(Exception pictureDownloadException){
                       System.out.println("Error saving -" + UserPicUrls.get(i));
                       pictureDownloadException.printStackTrace();
